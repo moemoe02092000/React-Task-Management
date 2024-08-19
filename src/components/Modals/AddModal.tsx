@@ -1,7 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState } from "react";
 import { getRandomColors } from "../../helpers/getRandomColors";
-import { v4 as uuidv4 } from "uuid";
+//import { v4 as uuidv4 } from 'uuid';
+//uuidv4(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
+//import { v4 as uuidv4, v5 as uuidv5 } from 'uuid';
+//import { v4 as uuidv4 } from "uuid";
 
 interface Tag {
 	title: string;
@@ -18,7 +21,7 @@ interface AddModalProps {
 
 const AddModal = ({ isOpen, onClose, setOpen, handleAddTask }: AddModalProps) => {
 	const initialTaskData = {
-		id: uuidv4(),
+		//id: uuidv4(),
 		title: "",
 		description: "",
 		priority: "",
