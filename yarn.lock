@@ -162,6 +162,11 @@
   resolved "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
+"@prisma/engines@5.3.1":
+  version "5.3.1"
+  resolved "https://registry.npmjs.org/@prisma/engines/-/engines-5.3.1.tgz"
+  integrity sha512-6QkILNyfeeN67BNEPEtkgh3Xo2tm6D7V+UhrkBbRHqKw9CTaz/vvTP/ROwYSP/3JT2MtIutZm/EnhxUiuOPVDA==
+
 "@remix-run/router@1.15.2":
   version "1.15.2"
   resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.15.2.tgz"
@@ -1853,6 +1858,13 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/preserve/-/preserve-0.2.0.tgz"
   integrity sha512-s/46sYeylUfHNjI+sA/78FAHlmIuKqI9wNnzEOGehAlUUYeObv5C2mOinXBjyUyWmJ2SfcS2/ydApH4hTF4WXQ==
+
+prisma@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.npmjs.org/prisma/-/prisma-5.3.1.tgz"
+  integrity sha512-Wp2msQIlMPHe+5k5Od6xnsI/WNG7UJGgFUJgqv/ygc7kOECZapcSz/iU4NIEzISs3H1W9sFLjAPbg/gOqqtB7A==
+  dependencies:
+    "@prisma/engines" "5.3.1"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"

@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+//eslint-disable @typescript-eslint/no-explicit-any 
 import { TimeOutline } from "react-ionicons";
 import { TaskT } from "../../types";
 
